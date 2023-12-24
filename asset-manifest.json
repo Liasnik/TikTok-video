@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TikTok-video/static/css/main.77318560.css",
+    "main.js": "/TikTok-video/static/js/main.5dcd8459.js",
+    "index.html": "/TikTok-video/index.html",
+    "main.77318560.css.map": "/TikTok-video/static/css/main.77318560.css.map",
+    "main.5dcd8459.js.map": "/TikTok-video/static/js/main.5dcd8459.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77318560.css",
+    "static/js/main.5dcd8459.js"
+  ]
+}
