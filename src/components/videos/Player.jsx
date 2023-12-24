@@ -39,7 +39,7 @@ const Player = ({ videoId, url }) => {
             loop={true}
             url={url}
             width="100%"
-            height="550px"
+            height="100%"
             onProgress={handleProgress}
             onReady={() => setIsReady(true)}
           />

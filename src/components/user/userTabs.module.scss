@@ -1,18 +1,25 @@
 .tabs_item {
+  margin-top: 20px;
 
+  .tabs_item {
+    list-style-type: none;
+    gap: 20px;
+  }
 
-    li {
-        cursor: pointer;
-        color: blue($color: #000000)
-    }
-    .active {
-        color:white;
-    }
-    .not_active {
-        color: blue;
-    }
+  li {
+    cursor: pointer;
+    color: blue($color: #000000);
+    list-style-type: none;
+  }
+  .active {
+    color: white;
+    padding-bottom: 10px;
+  }
+  .not_active {
+    color: blue;
+  }
 }
 
 .content {
-    cursor: pointer;
+  cursor: pointer;
 }

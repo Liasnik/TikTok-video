@@ -1,19 +1,19 @@
-import { Link } from 'react-router-dom'
-import s from './header.module.scss'
+import { Link } from "react-router-dom";
+import s from "./header.module.scss";
 
-import Search from '../search/Search'
+import Search from "../search/Search";
 
 const Header = () => {
   return (
     <div className={s.header_wrapper}>
       <header className={s.header}>
-        <Link to='/' className={s.logo}>
-            <h1>Tiktok-video</h1>
+        <Link to="/" className={s.logo}>
+          <h1>TikTok-video</h1>
         </Link>
-        <Search/>
+        <Search />
       </header>
     </div>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

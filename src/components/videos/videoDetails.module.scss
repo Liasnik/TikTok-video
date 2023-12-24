@@ -1,8 +1,11 @@
 .video_details {
-    list-style: none;
-    color: white;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  list-style: none;
+  color: rgba(255, 255, 255, 0.807);
 
-    li {
-        padding: 10px;
-    }
+  li {
+    padding: 10px;
+  }
 }
