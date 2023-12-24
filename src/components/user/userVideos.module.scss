@@ -1,0 +1,12 @@
+.user_wrapper {
+    display: flex;
+   margin-bottom: 40px;
+
+   button {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    gap: 6px;
+    margin: 20px 0;
+   }
+}

@@ -1,0 +1,51 @@
+.player_wrapper {
+  position: relative;
+  margin: 30px 0;
+  color: white;
+}
+
+.playing {
+  position: relative;
+  margin: 30px 0;
+  color: white;
+}
+
+//.player_wrapper {
+   // position: relative;
+   // padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+ // }
+  
+  // .react_player {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  // }
+
+  .player_control {
+    position: absolute;
+    top: calc(50% - 120px);
+    left: calc(50% - 120px);
+    
+    
+    &:hover {
+      opacity: 0.8;
+    }
+    :first-child{
+    color: rgb(255, 255, 255);
+
+      opacity: 0;
+      padding: 80px;
+      width: 80px; 
+      height: 80px; 
+      
+    }
+
+    
+    :last-child{
+      padding: 80px;
+      width: 80px; 
+      height: 80px; 
+      color: rgb(255, 255, 255);
+      opacity: 0.7;
+    }
+  }

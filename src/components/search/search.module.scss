@@ -1,0 +1,50 @@
+.search {
+    display: flex;
+    gap: 5px;
+    background-color: rgb(78, 117, 114);
+    border-radius: 5px;
+    padding: 5px;
+
+    .input {
+        display: flex;
+        background-color: rgb(78, 117, 114);
+        gap: 7px;
+        
+        align-items: center;
+    }
+
+    input {
+        
+        border: none;
+        outline: none;
+        background-color: inherit;
+        background-color: rgb(78, 117, 114);
+        color: white;
+        font-size: 18px;
+
+
+        &::placeholder {
+            color: rgb(166, 166, 166);
+        }
+    }
+
+    button {
+        padding: 5px;
+        border: none;      
+        border-radius: 5px;
+        background-color: rgb(33, 103, 97);
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: rgb(5, 112, 103);
+         
+        }
+        &:active {
+            background-color: rgb(33, 103, 97);
+            opacity: 0.8;
+        }
+
+    }
+}

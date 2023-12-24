@@ -1,0 +1,13 @@
+.wrapper {
+    width: 800px;
+}
+
+.video {
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #00060793;
+ //background-blend-mode: hard-light;
+ background-blend-mode:multiply;
+ filter: brightness(90%);
+ 
+}

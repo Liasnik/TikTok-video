@@ -1,0 +1,30 @@
+.user_wrapper{}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    //background-repeat:no-repeat ;
+    //background-position: center;
+    border-radius: 50%;
+    margin-bottom: 16px;;
+}
+// .avatar {
+//     width: 200px;
+//     height: 200px
+// }
+
+.nickname {
+ font-size: x-large;
+ padding: 16px 0;
+ text-overflow: ellipsis;
+}
+
+.stats {
+    list-style: none;
+
+    li {
+        font-size:larger;
+        margin-bottom: 10px;
+    }
+}

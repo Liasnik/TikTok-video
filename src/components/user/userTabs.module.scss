@@ -1,0 +1,18 @@
+.tabs_item {
+
+
+    li {
+        cursor: pointer;
+        color: blue($color: #000000)
+    }
+    .active {
+        color:white;
+    }
+    .not_active {
+        color: blue;
+    }
+}
+
+.content {
+    cursor: pointer;
+}
